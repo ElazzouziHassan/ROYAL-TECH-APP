@@ -1,12 +1,16 @@
 
 import './App.css'
+import { Footer } from './components/footer/footer'
+import { Main } from './components/main/main'
+import { NavBar } from './components/nav-bar/nav-bar'
 
 function App() {
 
   return (
     <div className="App">
-      <h1>Royal Tech | modern business solutions </h1>
-      <h2>coming soon ...</h2>
+      <NavBar />
+      <Main />
+      <Footer/>
     </div>
   )
 }
